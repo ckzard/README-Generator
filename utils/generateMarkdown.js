@@ -2,8 +2,21 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  Your username is : ${data.username}
+  ## Description 
+  ${data.description}
 
+  ## Table of Contents:
+  * [Installation](#installation)
+  and so forth
+
+  ## Installation:
+  ${data.installation}
+
+  ##Usage
+  ${data.usage}
+
+  ##Credits
+  ${data.credits}
 
 `;
 }
