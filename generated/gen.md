@@ -25,6 +25,9 @@
   ## Contributing:
   [ckzard](https://www.github.com/ckzard)
 
+  ## Tests:
+  run node index.js
+
   ## Questions
   For any questions regarding this project please email me at:
   ckzard@gmail.com

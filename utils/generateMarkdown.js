@@ -9,7 +9,8 @@ function generateMarkdown(data) {
       badgeLicense =  "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"; 
     }
 
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
   ${badgeLicense}
 
@@ -21,6 +22,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
+  * [Tests](#tests)
   * [Questions](#questions)
   and so forth
 
@@ -35,6 +37,9 @@ function generateMarkdown(data) {
 
   ## Contributing:
   [${data.contributing}](https://www.github.com/${data.contributing})
+
+  ## Tests:
+  ${data.tests}
 
   ## Questions
   For any questions regarding this project please email me at:
