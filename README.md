@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  A node based application that utilizes inquirer to prompt users for information regarding their project and generate a read me. ()
+  A node based application that utilizes inquirer to prompt users for information regarding their project and generate a read me.
 
   ## Table of Contents:
   * [Installation](#installation)
