@@ -23,9 +23,28 @@ const questions = [
 
     },
     {
+        type: "list",
+        name : "license",
+        message : "Please enter the license for your project: ",
+        choices : ["MIT", "APACHE", "IBM", "None"],      
+    },
+
+    {
         type: "input",
-        name : "credits",
-        message : "Enter the names of any contributors or links to 3rd party assets: ",
+        name : "contributing",
+        message : "Enter the Github usernames of contributors to the projects: ",
+
+    },
+    {
+        type: "input",
+        name : "tests",
+        message : "What commands should be run to test application: ",
+
+    },
+    {
+        type: "input",
+        name : "questions",
+        message : "Please enter your email address: ",
 
     },
 ];
@@ -46,7 +65,7 @@ function init() {
     //ask user questions, then take response and pass it into write to file with...
     .then((response) => 
         //gives name of file we want to write to
-        writeToFile("README.md", generateMarkdown(response))
+        writeToFile("generated/gen.md", generateMarkdown(response))
     );
     
 }
