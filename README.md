@@ -3,7 +3,8 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  An application that generates a readme based on user input using Inquirer
+  A node based application that utilizes inquirer to prompt users for information regarding their project and generate a read me.
+>>>>>>> 0853210e0e9c52f717a80ad2be941d69274c478e
 
   ## Table of Contents:
   * [Installation](#installation)
